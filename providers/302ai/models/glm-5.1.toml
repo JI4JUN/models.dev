@@ -1,3 +1,4 @@
+# Toggle: thinking.type = enabled|disabled
 name = "glm-5.1"
 description = "Flagship GLM model for hybrid reasoning, coding, and agentic engineering"
 family = "glm"
