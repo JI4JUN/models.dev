@@ -1,11 +1,12 @@
 name = "302.AI"
 env = ["302AI_API_KEY"]
 npm = "@ai-sdk/openai-compatible"
-# Reasoning HTTP format (accessed 2026-06-25):
-# Audited POST https://api.302.ai/v1/chat/completions. The provider's API guide
-# documents model/messages only; no reasoning toggle, effort, or numeric budget
-# request field is documented. Do not infer passthrough from upstream APIs.
-# Sources:
-# https://doc.302.ai/
+# Relay provider: 302.AI proxies multi-model lab endpoints (OpenAI, Anthropic, GLM, Qwen, DeepSeek, etc.).
+# Reasoning controls map to upstream lab surfaces:
+# - OpenAI / GPT: `reasoning_effort`
+# - Anthropic / Claude: `output_config.effort` and optional `thinking.type`
+# - GLM / Zhipu: `thinking.type = enabled|disabled`
+# - Qwen / Alibaba: `enable_thinking true|false` and `thinking_budget`
+# - Dedicated thinking IDs (e.g. *-thinking, Gemini, MiniMax): []
 doc = "https://doc.302.ai"
 api = "https://api.302.ai/v1"
