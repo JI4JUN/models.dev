@@ -1,0 +1,9 @@
+base_model = "alibaba/qwen3.8-max"
+reasoning_options = []
+
+[cost]
+input = 0.9
+output = 2.65
+
+[limit]
+context = 991000

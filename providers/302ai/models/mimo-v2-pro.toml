@@ -1,0 +1,9 @@
+base_model = "xiaomi/mimo-v2-pro"
+reasoning_options = []
+
+[cost]
+input = 1.1
+output = 3.3
+
+[limit]
+context = 1000000

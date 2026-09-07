@@ -1,0 +1,6 @@
+base_model = "openai/gpt-6-astra"
+reasoning_options = [{ type = "effort", values = ["none", "low", "medium", "high", "xhigh"] }]
+
+[cost]
+input = 10.0
+output = 50.0

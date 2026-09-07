@@ -1,0 +1,9 @@
+base_model = "alibaba/qwen3.8-flash"
+reasoning_options = []
+
+[cost]
+input = 0.075
+output = 0.235
+
+[limit]
+context = 991000

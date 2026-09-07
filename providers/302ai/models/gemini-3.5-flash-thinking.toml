@@ -1,0 +1,10 @@
+base_model = "google/gemini-3.5-flash"
+name = "gemini-3.5-flash-thinking"
+reasoning_options = []
+
+[cost]
+input = 1.5
+output = 9.0
+
+[limit]
+context = 1000000
