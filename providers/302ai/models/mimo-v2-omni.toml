@@ -8,6 +8,3 @@ field = "reasoning_content"
 [cost]
 input = 0.44
 output = 2.2
-
-[limit]
-context = 256000

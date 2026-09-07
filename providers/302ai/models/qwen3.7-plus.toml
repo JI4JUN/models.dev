@@ -6,6 +6,3 @@ reasoning_options = [{ type = "toggle" }, { type = "budget_tokens" }]
 [cost]
 input = 0.228
 output = 0.92
-
-[limit]
-context = 991000
