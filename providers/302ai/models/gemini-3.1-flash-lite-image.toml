@@ -4,6 +4,3 @@ reasoning_options = []
 [cost]
 input = 0.25
 output = 1.5
-
-[limit]
-context = 131072
